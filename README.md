@@ -6,7 +6,7 @@ This project uses the ROS `move_base` package as the core of the autonomous navi
 ---
 ## 📁 Configuration
 ```bash
-${racing_car_ws}/
+racing_car_ws/
 ├── src/
 │ ├── encoder_driver/ # Encoder driver for wheel odometry 
 │ ├── hi226_imu/ # A ROS package for HiPNUC HI226/Hi229 IMU Device
@@ -49,5 +49,5 @@ echo "source $(pwd)/devel/setup.bash" >> ~/.bashrc && source ~/.bashrc
 ### 🚀 Start:
 ```bash
 roslaunch raecar Run_car.launch
-roslaunch amcl_nav.launch
+roslaunch raecar amcl_nav.launch
 ```
