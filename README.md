@@ -32,8 +32,22 @@ ${racing_car_ws}/
 - `controller_manager`
 - `ros_control`
 
-### 安装依赖）:
+### ✅ Dependencies:
 
 ```bash
 sudo apt update
 sudo apt install ros-<distro>-ackermann-msgs ros-<distro>-ros-control ros-<distro>-navigation
+```
+
+### ✅ Installation:
+```bash
+git clone https://github.com/Hency-727/racecar_intelligent_driving2023.git
+catkin_make
+echo "source $(pwd)/devel/setup.bash" >> ~/.bashrc && source ~/.bashrc
+```
+
+### 🚀 Start:
+```bash
+roslaunch raecar Run_car.launch
+roslaunch amcl_nav.launch
+```
