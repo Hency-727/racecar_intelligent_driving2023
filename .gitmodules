@@ -1,18 +1,18 @@
 [submodule "rf2o_laser_odometry"]
-	path = rf2o_laser_odometry
+	path = src/rf2o_laser_odometry
 	url = https://github.com/MAPIRlab/rf2o_laser_odometry.git
 [submodule "hipnuc_imu"]
 	path = hipnuc_imu
 	url = https://github.com/TzuChiehHung/hipnuc_imu.git
 [submodule "LS01B"]
-	path = LS01B
+	path = src/LS01B
 	url = https://github.com/leishen-lidar/LS01B.git
 [submodule "robot_localization"]
-	path = robot_localization
+	path = src/robot_localization
 	url = https://github.com/cra-ros-pkg/robot_localization.git
 [submodule "serial"]
-	path = serial
+	path = src/serial
 	url = https://github.com/wjwwood/serial.git
 [submodule "imu_tools"]
-	path = imu_tools
+	path = src/imu_tools
 	url = https://github.com/CCNYRoboticsLab/imu_tools.git
