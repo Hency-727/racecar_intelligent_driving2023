@@ -1,7 +1,7 @@
 # racecar_intelligent_driving2023
 # 🏎️ Autonomous Racecar Codebase
 This project uses the ROS `move_base` package as the core of the autonomous navigation stack. It enables the racing car to plan and follow a safe and efficient path from the start to the goal while avoiding obstacles in real time.
-
+<video controls src="video/17_out_door_ros_competition.mp4" title="Demonstration Video"></video>
 ![alt text](racecar.jpg)
 ---
 ## 📁 Configuration
